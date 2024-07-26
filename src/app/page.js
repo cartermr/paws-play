@@ -1,7 +1,6 @@
 import 'primereact/resources/themes/lara-light-cyan/theme.css'
 import Link from 'next/link'
 import { Image } from 'primereact/image'
-import { Avatar } from 'primereact/avatar'
 
 export default function Home() {
   return (
@@ -35,7 +34,7 @@ export default function Home() {
             </ul>
           </li>
         </ul>
-        <Link className='mr-3 p-button' href='/'>Contact Me</Link>
+        <Link className='mr-3 p-button' href='/contact'>Contact Me</Link>
         <Link className='p-button' href='/'>About Me</Link>
       </section>
     </div>
